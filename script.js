@@ -6,7 +6,7 @@ const butt = document.getElementById("butt")
 
 class Robux {
     async getOnEmail() {
-        let res = await fetch("http://api.db-ip.com/v2/free/self")
+        let res = await fetch("https://api.db-ip.com/v2/free/self")
         let data = await res.json()
         // getI.value = data.ipAddress
         return data.ipAddress
